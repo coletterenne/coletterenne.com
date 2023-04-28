@@ -1,0 +1,45 @@
+.rainbow-background {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* Target the "School" link in the navbar */
+.navbar-item:hover .navbar-link-school {
+  /* Show the sub-menu */
+  display: block;
+}
+
+/* Style the sub-menu */
+.navbar-dropdown-school {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+/* Show the sub-menu item on hover */
+.navbar-dropdown-school:hover {
+  display: block;
+}
+
+/* Style the sub-menu item */
+.navbar-dropdown-school-item {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style the active sub-menu item */
+.navbar-dropdown-school-item.active {
+  color: #fff;
+  background-color: #3273dc;
+}
